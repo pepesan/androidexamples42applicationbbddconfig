@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/pepesan/Documents/workspace-android-inguralde/androidexamples42applicationbbddconfig/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="add">Nuevo</string>
+    <string name="app_name">androidexamples35aplication</string>
+    <string name="cadena">Cadena</string>
+    <string name="clientes">Selección de Cliente</string>
+    <string name="config">Configuración</string>
+    <string name="delete">Borrar</string>
+    <string name="deleted">Borrado</string>
+    <string name="edit">Editar</string>
+    <string name="gospinner">Spinner Act</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="modified">Modificado</string>
+    <string name="save">Guardar</string>
+    <string name="saved">Guardado</string>
+    <string name="title_activity_add_edit">AddEdit</string>
+    <string name="title_activity_mostrar">Mostrar</string>
+    <string name="title_activity_spinner">Spinner</string>
+    <string name="titulo_cadena">Cadena</string>
+    <!-- From: file:/Users/pepesan/Documents/workspace-android-inguralde/androidexamples42applicationbbddconfig/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

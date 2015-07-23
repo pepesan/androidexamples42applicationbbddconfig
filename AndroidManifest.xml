@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sistema.app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:name="com.sistema.app.Aplicacion"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.sistema.app.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sistema.app.Mostrar"
+            android:label="@string/title_activity_mostrar" >
+        </activity>
+        <activity
+            android:name="com.sistema.app.AddEdit"
+            android:label="@string/title_activity_add_edit" >
+        </activity>
+        <activity
+            android:name="com.sistema.app.SpinnerAct"
+            android:label="@string/title_activity_spinner" >
+        </activity>
+        <activity
+            android:name="com.sistema.app.MisPreferencias"
+            android:label="@string/config" >
+        </activity>
+    </application>
+
+</manifest>
